@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.env*/           # optional .env.dev, .env.test etc.
+.venv/
+pip-wheel-metadata/
+
+# VSCode or PyCharm config
+.vscode/
+.idea/
+
+# Poetry or pipenv
+poetry.lock
+Pipfile.lock
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# pytest cache
+.pytest_cache/
+
+# mypy, coverage, etc.
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
